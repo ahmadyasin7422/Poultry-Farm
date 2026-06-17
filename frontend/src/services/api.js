@@ -1,5 +1,5 @@
 // API base URL - uses Vite proxy in development
-const API_URL = '/api';
+const API_URL = import.meta.env.VITE_API_URL;
 
 /**
  * Get auth token from localStorage
